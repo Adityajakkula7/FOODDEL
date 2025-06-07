@@ -9,7 +9,7 @@ const StoreContextProvider = (props) => {
     return savedCart ? JSON.parse(savedCart) : {};
   });
 
-  const url = 'http://localhost:4000';
+  const url = 'https://fooddel-backend-43zi.onrender.com';
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
 
