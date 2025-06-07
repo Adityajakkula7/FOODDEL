@@ -1,0 +1,16 @@
+# Node.js folders
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Build artifacts
+dist/
+build/
+
+# OS junk
+.DS_Store
+Thumbs.db
